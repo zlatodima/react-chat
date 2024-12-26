@@ -1,0 +1,64 @@
+body {
+    background-image: url("../../../public/depositphotos_22823894-stock-photo-dark-concrete-texture.jpg");
+}
+
+ul, li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.response_arrow {
+    content:url("../../../public/chat_arrow.png");
+    position: absolute;
+    top: -80px;
+    /*left: calc(var(--initial-left, 0px) + 20px);*/
+    height: 140px;
+    width: 170px;
+}
+
+.comments_container {
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 0 auto;
+}
+
+.comment_container {
+    justify-content: center;
+    margin-bottom: 10px;
+    width: 100%;
+    position: relative;
+}
+
+.autor_panel {
+    height: 35px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-top: 15px;
+    background: #358000;
+}
+
+.comment_panel {
+    border: 1px solid black;
+    text-align: left;
+    padding-left: 15px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: #f4ffcd;
+}
+
+.username {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.autor_panel p {
+    padding-right: 5px;
+}

@@ -1,7 +1,6 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import CommentComponent from './components/CommentComponent'
+import CommentComponent from './components/CommentComponent/CommentComponent'
 
 class App extends React.Component {
   render() {
